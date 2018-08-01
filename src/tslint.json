@@ -1,0 +1,17 @@
+{
+    "extends": "../tslint.json",
+    "rules": {
+        "directive-selector": [
+            true,
+            "attribute",
+            "zone-patrol",
+            "camelCase"
+        ],
+        "component-selector": [
+            true,
+            "element",
+            "zone-patrol",
+            "kebab-case"
+        ]
+    }
+}
